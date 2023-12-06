@@ -1,0 +1,10 @@
+<ul class="albumsCardsContainer" >
+{{#each albums}}
+<div >
+<li class="albumsCard">{{this.name}}
+<img src={{this.images.1.url}} alt="artistsImages"/>
+<a href="/tracks/{{this.id}}">View tracks</a>
+</li>
+</div>
+  {{/each}} 
+</ul>

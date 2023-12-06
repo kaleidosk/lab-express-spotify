@@ -1,0 +1,13 @@
+<ul class="cardsContainer">
+{{#each artists}}
+<div class="artistCard">
+<li class="artistsLi">{{this.name}}</li>
+{{#if this.images}}
+<img class="cardImage" src={{this.images.1.url}} alt="artistsImages"/>
+    {{/if}}
+    <li class="artistsLi"><a href="/albums/{{this.id}}">View Albums</a></li>
+</div>
+  {{/each}} 
+</ul>
+
+

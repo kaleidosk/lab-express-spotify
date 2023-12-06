@@ -1,0 +1,80 @@
+body{
+    margin: 0em;
+}
+
+#indexContainer{
+display:inline-block;
+position:relative;
+}
+
+#backgroundImageIndex{
+height: 60em;
+object-fit: cover;
+}
+
+form{
+    position:absolute;
+    display: flex;
+    flex-direction:column;
+    bottom:28em;
+    right:30em;
+    background-color: rgba(255,255,255, 0.5);
+    padding-top:3em;
+    padding-bottom: 2em;
+    padding-right:2em;
+    padding-left: 2em;
+}
+
+input{
+    width:30em;
+    height: 2em;
+    margin-bottom: 2em;
+}
+
+#indexContainer button{
+width: 15em;
+height: 2em;
+background-color:red;
+color:white;
+margin-left:8em;
+}
+
+.artistsLi {
+    list-style: none;
+}
+
+.cardsContainer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+}
+
+.artistCard{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin:2em;
+}
+
+.cardImage{
+    position: relative;
+}
+
+.albumsCardContainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.albumsCard{
+    display: flex;
+    flex-direction: column;
+    margin:2em;
+}
+
+.albumsCard img{
+    width: 20em;
+}
